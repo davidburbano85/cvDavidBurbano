@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Untitled Document</title>
+  <!-- Bootstrap -->
+  <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+  <link href="responsive.css" rel="stylesheet" type="text/css">
+  <style type="text/css">
+
+  </style>
+
+</head>
+
+<body>
+  <!-- body code goes here -->
+  <div class="container">
+    <div class="sign">
+      <h1> Sign up</h1>
+    </div>
+    <main id="main">
+      <form action="" class="row g-3" id="form">
+        <div class="col-6">
+          <label for="nameinput" class="form-label">Names</label>
+          <input type="text" class="form-control" id="nameinput" placeholder="names">
+
+        </div>
+
+        <div class="col-6">
+          <label for="lastnameinput" class="form-label">Last Names</label>
+          <input type="text" class="form-control" id="lastnameinput" placeholder="lastnames">
+
+        </div>
+        <div class="col-12">
+          <label for="idinput" class="form-label">Id</label>
+          <input type="number" class="form-control" id="idinput" placeholder="id">
+
+        </div>
+
+        <div class="col-6">
+          <label for="passinput" class="form-label">Password</label>
+          <input type="password" class="form-control" id="passinput" placeholder="password">
+
+        </div>
+
+        <div class="col-6">
+          <label for="repeatpassinput" class="form-label">Password</label>
+          <input type="password" class="form-control" id="repeatpassinput" placeholder="repeat password">
+
+        </div>
+
+        <div class="col-6">
+          <label for="cbox1" class="form-label">accept
+            <input type="checkbox" id="cbox1">
+          </label>
+        </div>
+
+        <div class="col-12">
+          <label for="mailinput" class="form-label"> E-mail</label>
+          <input type="email" id="mailinput" class="form-control" placeholder="email">
+
+        </div>
+
+        <div class="col-12">
+          <button class="btn btn-primary" type="button" id="btnSubmit">send</button>
+          <a href="inicio.html" class="btn btn-primary ">Home</a>
+          <p class="warnings " id="warnings"></p>
+
+        </div>
+      </form>
+    </main>
+
+  </div>
+  <div class="msj" id="msj" onload="apagar">confirm to send your data
+    <button type="submit" id="send" class="btn btn-primary send">Submit</button>
+  </div>
+
+  <div class="usuariosCol"> <h1 class="">My friends</h1>
+  <h3>
+    <div id="usuarios" class="usuarios"></div>
+  </h3> 
+    
+  </div>
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap-4.4.1.js"></script>
+  <script src="js/js.js" type="module"></script>
+  <script src="js/users.js" type="module"></script>
+  <script src="js/firebase.js" type="module"></script>
+</body>
+
+</html>

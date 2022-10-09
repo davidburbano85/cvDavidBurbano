@@ -1,0 +1,517 @@
+@charset "utf-8";
+/* CSS Document */
+.warnings{
+    
+    width: 300px;
+    height: max-content;
+    color: #2357A6;
+    text-align: center;
+    padding-top: 20px;
+    margin: 20px;
+    /* background-color: blue; */
+    border-radius: 5px;
+}
+.msj{
+    display: none;
+    margin-left: 22%;
+    margin-top: 30px;
+    border-radius: 15px;
+    background-color: darkcyan;
+    width: 370px;
+    height: 100px;
+    padding-top: 30px;
+    padding-left: 40px;
+    transition: 3s;
+}
+:hover.msj{
+    background-color:darkslategrey;
+    transition: 1s;
+}
+
+
+
+@media screen and (max-width:480px){
+
+
+
+    .sign{
+        margin-left: 20%;
+    }
+    
+    
+    .container{
+        margin-top: 50px;
+        border: solid;
+        border-color:  #2357A6;
+        border-radius: 2%;
+        width: 275px;
+        height: 400px;
+        
+        
+    }
+    
+    .allbodyimage {
+       
+        background-color: #F9FEFF; 
+        height: auto;
+        width: 100%;
+        color: #2357A6;
+        font-size: 195%
+    }    
+
+    
+    
+    .body {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        border-width: 0px;
+        height: max_content;
+        
+    }   
+
+    
+
+    .bigImage {
+
+        margin: 2.5%;
+        padding: 2px;
+        height: max_content;
+        width: 90%;
+        margin-top: 15%;
+        font-size: 5%;
+        font-weight: normal;
+        text-align: right;
+
+    }   
+
+
+
+    .biography {
+        
+        margin: 2.5%;
+        padding: 5px;
+        height: max-content;
+        width: 90%;        
+        opacity: none;
+
+}
+
+
+    .registro {
+        margin: 25%;
+        padding: 5px;
+        height: max-content;
+        width: 60%;
+        border:solid;
+        border-color: #2357A6;
+        border-radius: 2%;
+        font-size: 45%;
+    }
+ 
+    .contact {
+        padding: 5px;
+        height: max-content;
+        width: 90%;
+        margin: 2.5%;               
+        font-weight: bold;
+        font-size: 50%;
+    }
+    
+
+    .imgLittle{
+        
+        margin: 2.5%;        
+        height:90%;
+        width: 90%; 
+        opacity: 0.6;
+       
+        
+    }    
+    .navbar {
+        background-color: red;
+    }    
+    .descriptionCV {
+        font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+        font-size: 90%;
+       height: max-content;
+        width: 100%;        
+        font-weight: bolder
+}
+
+    .descriptionCVText {
+        margin-top: 30px;
+        font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+        height: max-content;
+        width: 100%;
+
+    }
+    
+    .colum{
+        font-weight: bold;
+    }
+    
+
+}
+
+@media screen and (min-width:480px) and (max-width:768px){
+
+    .sign{
+        margin-left: 20%;
+    }
+    .container{
+        margin-top: 50px;
+        border: solid;
+        border-color:  #2357A6;
+        border-radius: 2%;
+        width: 370px;
+        height: 600px;       
+        
+    }  
+
+
+.allbodyimage {
+       
+        background-color: #F9FEFF; 
+        height: auto;
+        width: 100%;
+        color: #2357A6;
+        font-size: 195%
+    }      
+    
+    .body {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        border-width: 0px;
+        height: max_content;
+        
+    }       
+
+    .bigImage {
+    
+        margin: 2.5%;
+        padding: 2px;
+        height: max_content;
+        width: 90%;
+        margin-top: 15%;
+        font-size: 5%;
+        font-weight: normal;
+        text-align: right;
+
+    }    
+
+    .biography {
+        
+        margin: 2.5%;
+        padding: 5px;
+        height: max-content;
+        width: 90%;        
+        opacity: none;
+
+}
+
+    .registro {
+        margin: 25%;
+        padding: 5px;
+        height: max-content;
+        width: 60%;
+        border-width: medium;
+        border:solid;
+        border-color: #2357A6;
+        border-radius: 2%;
+        
+        
+    }
+ 
+    .contact {
+        padding: 5px;
+        height: max-content;
+        width: 90%;
+        margin: 2.5%;               
+        font-weight: bold;
+    }
+    
+    .imgLittle{
+        
+        margin: 2.5%;        
+        height:90%;
+        width: 90%; 
+        opacity: 0.6;
+       
+        
+    }
+    
+    .navbar {
+        background-color: red;
+    }
+    
+    .descriptionCV {
+        font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+        font-size: 90%;
+        height: max-content;
+        width: 100%;        
+        font-weight: bolder
+}
+
+    .descriptionCVText {
+        margin-top: 30px;
+        font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+        height: max-content;
+        width: 100%;
+        
+    }
+    
+    .colum{
+        font-weight: bold;
+    }
+    
+}
+
+@media screen and (min-width:768px) and (max-width:1024px){
+
+    
+    .sign{
+        margin-left: 20%;
+    }
+    .container{
+        margin-top: 50px;
+        border: solid;
+        border-color:  #2357A6;
+        border-radius: 2%;
+        width: 370px;
+        height: 400px;
+        
+        
+    }  
+    
+    
+    
+    .allbodyimage {
+       
+        background-color: #F9FEFF; 
+        height: auto;
+        width: 100%;
+       color: #2357A6;
+        font-size: 195%
+    }   
+
+    
+    
+    .body {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        border-width: 0px;
+        height: max_content;
+        
+    }   
+
+    
+
+    .bigImage {
+        margin: 2.5%;
+        padding: 2px;
+        height: max_content;
+        width: 90%;
+        margin-top: 15%;
+        font-size: 5%;
+        font-weight: normal;
+        text-align: right;
+
+    }
+    
+
+    .biography {        
+        margin: 2.5%;
+        padding: 5px;
+        height: max-content;
+        width: 90%;        
+        opacity: none;
+
+}
+
+    .registro {
+        margin: 25%;
+        padding: 5px;
+        height: max-content;
+        width: 60%;
+        border-width: medium;
+        border:solid;
+        border-color: #2357A6;
+        border-radius: 2%;
+        
+        
+    }
+ 
+    .contact {
+        padding: 5px;
+        height: max-content;
+        width: 90%;
+        margin: 2.5%;               
+        font-weight: bold;
+    }
+    
+    .imgLittle{
+        
+        margin: 2.5%;        
+        height:90%;
+        width: 90%; 
+        opacity: 0.6;
+       
+        
+    }
+    
+    .navbar {
+        background-color: red;
+    }
+    
+    .descriptionCV {
+        font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+        font-size: 90%;
+       height: max-content;
+        width: 100%;        
+        font-weight: bolder
+}
+
+    .descriptionCVText {
+        font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+        height: max-content;
+        width: 100%;
+        margin-top: 30px;
+    }
+    
+    .colum{
+        font-weight: bold;
+    }
+
+
+}
+@media screen and (min-width:1024px) and (max-width:1600px){
+
+    .sign{
+        margin-left: 20%;
+    }
+    .container{
+        margin-top: 50px;
+        border: solid;
+        border-color:  #2357A6;
+        border-radius: 2%;
+        width: 370px;
+        height: 400px;
+        
+        
+    }    
+    
+    
+    .allbodyimage {
+       
+        background-color: #F9FEFF; 
+        height: auto;
+        width: 100%;
+        color: #2357A6;
+        font-size: 195%
+    }    
+    
+    .body {
+        
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        border-width: 0px;
+        height: max_content;
+        
+    }    
+
+    .bigImage {
+
+        margin: 2.5%;
+        padding: 2px;
+        height: max_content;
+        width: 90%;
+        margin-top: 15%;
+        font-size: 5%;
+        font-weight: normal;
+        text-align: right;
+
+    }    
+
+    .biography {        
+        margin: 2.5%;
+        padding: 5px;
+        height: max-content;
+        width: 90%;        
+        opacity: none;
+
+}
+
+    .registro {
+        margin: 25%;
+        padding: 5px;
+        height: max-content;
+        width: 60%;
+        border-width: medium;
+        border:solid;
+        border-color: #2357A6;
+        border-radius: 2%;
+        
+    }
+ 
+    .contact {
+        padding: 5px;
+        height: max-content;
+        width: 90%;
+        margin: 2.5%;               
+        font-weight: bold;
+    }
+    
+    .imgLittle{
+        
+        margin: 2.5%;        
+        height:90%;
+        width: 90%; 
+        opacity: 0.6;
+       
+        
+    }
+    
+    .navbar {
+        background-color: red;
+    }
+    
+    .descriptionCV {
+        font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+        font-size: 90%;
+        height: max-content;
+        width: 100%;
+        font-weight: bolder
+}
+
+    .descriptionCVText {
+        margin-top: 30px;
+        font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+        margin-top: 30px;
+        height: max-content;
+        width: 100%;
+        
+    }
+    
+    .colum{
+        font-weight: bold;
+    }
+
+    .container{
+        margin-top: 50px;
+        border: solid;
+        border-color:  #2357A6;
+        border-radius: 2%;
+        width: 370px;
+        height: 400px;
+        
+        
+    }
+    
+    
+}
+
+
